@@ -26,6 +26,7 @@ Requires: [Dependencies]
 - ✅ Client
   - Only the client needs this mod.
 - ✅ Session
+  - Requires the room to be marked as Mod_Session for functionality.
   - Marks the room as Mod_Session when hosting.
 
 ---------------------
