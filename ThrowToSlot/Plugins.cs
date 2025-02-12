@@ -26,7 +26,7 @@ namespace ThrowToSlot
     {
         public static bool Enabled { get; private set; }
 
-        public override MultiplayerType MPType => MultiplayerType.Host;
+        public override MultiplayerType MPType => MultiplayerType.Client;
 
         public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 
@@ -36,7 +36,7 @@ namespace ThrowToSlot
 
         public override SessionChangedReturn OnSessionChange(SessionChangedInput input)
         {
-            Enabled = input.HostHasMod;
+            Enabled = input.IsMod_Session;
             return new SessionChangedReturn() { SetMod_Session = true };
         }
     }

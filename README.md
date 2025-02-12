@@ -4,7 +4,7 @@
 
 # Throw To Slot
 
-Version 1.0.0  
+Version 2.0.0  
 For Game Version 1.0.4  
 Developed by 18107  
 Requires:  BepInEx-BepInExPack-5.4.2100, VoidCrewModdingTeam-VoidManager-1.2.5
@@ -19,12 +19,12 @@ Requires:  BepInEx-BepInExPack-5.4.2100, VoidCrewModdingTeam-VoidManager-1.2.5
 ### 🎮 Client Usage
 
 - Install
+- Throw items at everything
 
 ### 👥 Multiplayer Functionality
 
 - ✅ Client
-- ✅ Host
-  - Both the host and Client need this mod.
+  - Only the client needs this mod.
 - ✅ Session
   - Marks the room as Mod_Session when hosting.
 

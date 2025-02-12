@@ -19,12 +19,12 @@ Requires: [Dependencies]
 ### 🎮 Client Usage
 
 - Install
+- Throw items at everything
 
 ### 👥 Multiplayer Functionality
 
 - ✅ Client
-- ✅ Host
-  - Both the host and Client need this mod.
+  - Only the client needs this mod.
 - ✅ Session
   - Marks the room as Mod_Session when hosting.
 
